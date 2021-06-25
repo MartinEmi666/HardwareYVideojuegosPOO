@@ -3,6 +3,8 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+
+// 1 Package
 package capaModelo;
 
 /**
@@ -10,24 +12,20 @@ package capaModelo;
  * 
  * 
  */
+
+// 2 import
+
+// 3 public class
 public class TUsuarios {
     
-// Variables a utilizar
-// atributos del usuario
-    
-    private String nombreUsuario;
-    private int telefono;
-    private String CorreoElectronico;
-    
-// Método constructor vacío
-
+// 4 constructores
 public TUsuarios(){
     this.nombreUsuario = " ";
     this.telefono = 0;
     this.CorreoElectronico = " ";
 }
 
-//Constructor con parámetros
+// 4.1 Constructor con parámetros
 
 public TUsuarios(String nombreUsuario, int telefono, String CorreoElectronico){
 
@@ -36,7 +34,17 @@ this.telefono=telefono;
 this.CorreoElectronico = CorreoElectronico;
 
 }
+    
+// 5 propiedades
+    
+    private String nombreUsuario;
+    private int telefono;
+    private String CorreoElectronico;
+    
 
+// 6 metodos
+    
+// 7 getters y setters
 public String getnombreUsuario(){
     return nombreUsuario;
 }
@@ -61,7 +69,7 @@ public void setCorreoElectronico (String CorreoElectronico){
    this.CorreoElectronico = CorreoElectronico;
 }
 
-
+// cierre de la clase
 }
 
 

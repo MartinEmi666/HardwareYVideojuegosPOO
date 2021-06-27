@@ -8,9 +8,11 @@
 package capaModelo;
 
 /**
- *
- * 
- * 
+ * autor: Ortega Velázquez Martín Emiliano
+ * Equipo 10. Programación Orientada a Objetos
+ * La clase TUsuarios tiene como objetivo construir y definir un objeto de tipo Usuario
+ * que tiene como atributos comunes un nombre de usuario, un telefono y un correo
+ * electrónico
  */
 
 // 2 import

@@ -85,7 +85,7 @@ public class CEmpleados extends TUsuarios{
     return aniosLaborando;
     }
     
-    public void setaniosLaborando(int rfc){
+    public void setaniosLaborando(int aniosLaborando){
         this.aniosLaborando = aniosLaborando;
     }
     

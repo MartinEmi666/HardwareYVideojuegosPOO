@@ -6,10 +6,10 @@
 package capaModelo;
 
 /**
- *
+ * @date 28/06/2021
  * @autor Ortega Velázquez Martín Emiliano
- * Equipo 10. Programación Orientada a Objetos
- * La clase CProveedores tiene como objetivo definir un proveedor, el cual tiene
+ * @description Equipo 10. Programación Orientada a Objetos
+ * La clase CProveedores es un catalogo que tiene como objetivo definir un proveedor, el cual tiene
  * como atributos un id, un nombre, un domicilio fiscal, un rfc, una página web
  * un telefono, y un enlace a linkedin
  */

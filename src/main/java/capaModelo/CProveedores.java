@@ -52,6 +52,35 @@ public class CProveedores {
     
 // 6 metodos
     
+    public void agregarProveedor(){
+        
+    }
+    
+    public void modificarProveedor(){
+        
+    }
+    
+    public void consultarProveedor(){
+        
+    }
+    
+    public void eliminarProveedor(){
+        
+    }
+    
+    // devolverá un tipo de dato
+    public String miDato(String xMensaje){
+        //String miDato;
+        
+        //String miDato = "El primer dato es: " + this.getid(); 
+        
+        //return miDato;
+        
+        //return "El primer dato es: " + this.getid(); 
+        
+        return xMensaje + this.getid();
+    }
+    
 // 7 getters y setters
     public int getid(){
         return id;

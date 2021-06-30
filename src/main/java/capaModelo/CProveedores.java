@@ -51,7 +51,7 @@ public class CProveedores {
     private String linkedIn;
     
 // 6 metodos
-    
+   /* 
     public void agregarProveedor(){
         
     }
@@ -67,7 +67,7 @@ public class CProveedores {
     public void eliminarProveedor(){
         
     }
-    
+   */
     // devolverá un tipo de dato
     public String miDato(String xMensaje){
         //String miDato;
@@ -80,6 +80,13 @@ public class CProveedores {
         
         return xMensaje + this.getid();
     }
+
+    @Override
+    public String toString() {
+        return "CProveedores{" + "id=" + id + ", nombreProveedor=" + nombreProveedor + ", domicilioFiscal=" + domicilioFiscal + ", rfc=" + rfc + ", paginaWeb=" + paginaWeb + ", telefono=" + telefono + ", linkedIn=" + linkedIn + '}';
+    }
+    
+     
     
 // 7 getters y setters
     public int getid(){
